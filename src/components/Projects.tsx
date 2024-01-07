@@ -13,7 +13,7 @@ const Projects = () => {
         description: 'CRUD Application for asking and answering Coding related Questions',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["TypeScript", "React", "MongoDB", "Express", "Nodejs"],
-        thumbnail: "./portfolio/thumbnails/fakeso.png"
+        thumbnail: "/thumbnails/fakeso.png"
     },
     {
         title: 'Stock Price Predictor',
@@ -21,7 +21,7 @@ const Projects = () => {
         description: 'Web App designed to Predict Stock Prices using LSTM Neural Network',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["SQLite", "Flask", "React", "TensorFlow", "Keras"],
-        thumbnail: "./portfolio/thumbnails/stockpredict.png"
+        thumbnail: "/thumbnails/stockpredict.png"
     },
     {
         title: 'Portfolio',
@@ -29,7 +29,7 @@ const Projects = () => {
         description: 'Portfolio Website to show who I am and what I\'ve accomplished!',
         repo: 'https://github.com/Douhwe/portfolio',
         stack: ["TypeScript", "React"],
-        thumbnail: "./portfolio/thumbnails/andydev.png"
+        thumbnail: "/thumbnails/andydev.png"
 
     }
 ] 
@@ -48,7 +48,7 @@ const Projects = () => {
                 <div key={index} className="project-card">
                     <div className="card">
                         <figure>
-                            <img src={project.thumbnail} className="thumbnail" alt="Project Thumbnail" />
+                            <img src={process.env.PUBLIC_URL + project.thumbnail} className="thumbnail" alt="Project Thumbnail" />
                         </figure>
                         <div className="card-body">
                         <div className="title-date-icon">

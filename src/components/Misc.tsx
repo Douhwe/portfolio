@@ -5,8 +5,8 @@ const Misc = () => {
 
     const pictures = [
         {
-            thumbnail1: "./portfolio/thumbnails/cats1.jpg",
-            thumbnail2: "./portfolio/thumbnails/cats2.jpg"
+            thumbnail1: "/thumbnails/cats1.jpg",
+            thumbnail2: "/thumbnails/cats2.jpg"
         }
     ]
 
@@ -20,8 +20,8 @@ const Misc = () => {
             {pictures.map((picture, index) => (
                 <figure key={index}>
                     <div className="divide-space"></div>
-                    <img src={picture.thumbnail1} style={inlineStyle} alt="Thumbnail" />
-                    <img src={picture.thumbnail2} style={inlineStyle} alt="Thumbnail" />
+                    <img src={process.env.PUBLIC_URL + picture.thumbnail1} style={inlineStyle} alt="Thumbnail1" />
+                    <img src={process.env.PUBLIC_URL + picture.thumbnail2} style={inlineStyle} alt="Thumbnail2" />
 
                 </figure>
             ))}
