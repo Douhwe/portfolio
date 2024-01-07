@@ -5,8 +5,8 @@ const Misc = () => {
 
     const pictures = [
         {
-            thumbnail1: "/thumbnails/cats1.jpg",
-            thumbnail2: "/thumbnails/cats2.jpg"
+            thumbnail1: "./portfolio/thumbnails/cats1.jpg",
+            thumbnail2: "./portfolio/thumbnails/cats2.jpg"
         }
     ]
 

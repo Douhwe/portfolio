@@ -13,7 +13,7 @@ const Projects = () => {
         description: 'CRUD Application for asking and answering Coding related Questions',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["TypeScript", "React", "MongoDB", "Express", "Nodejs"],
-        thumbnail: "/thumbnails/fakeso.png?raw=true"
+        thumbnail: "./portfolio/thumbnails/fakeso.png"
     },
     {
         title: 'Stock Price Predictor',
@@ -21,7 +21,7 @@ const Projects = () => {
         description: 'Web App designed to Predict Stock Prices using LSTM Neural Network',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["SQLite", "Flask", "React", "TensorFlow", "Keras"],
-        thumbnail: "/thumbnails/stockpredict.png?raw=true"
+        thumbnail: "./portfolio/thumbnails/stockpredict.png"
     },
     {
         title: 'Portfolio',
@@ -29,7 +29,7 @@ const Projects = () => {
         description: 'Portfolio Website to show who I am and what I\'ve accomplished!',
         repo: 'https://github.com/Douhwe/portfolio',
         stack: ["TypeScript", "React"],
-        thumbnail: "/thumbnails/andydev.png?raw=true"
+        thumbnail: "./portfolio/thumbnails/andydev.png"
 
     }
 ] 
