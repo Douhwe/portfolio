@@ -12,7 +12,7 @@ export const Portfolio = () => {
 
 
     return (
-        <div className='home'>
+        <div className='home' id='top'>
             <Sidebar></Sidebar>
         <div className='content'>
             <AboutMe/>

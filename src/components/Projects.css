@@ -10,7 +10,7 @@
 .project-card {
     display: flex;
     width: max-content;
-    max-width: 800px; /* Equivalent to max-w-2xl */
+    width: 600px; /* Equivalent to max-w-2xl */
     margin-bottom: 8px;
     margin-top: 12px;
     margin-right: 165px;
@@ -26,8 +26,8 @@
 
 .thumbnail {
     aspect-ratio: 1;
-    width: 380px; /* Equivalent to w-80 */
-    padding: 16px; /* Equivalent to p-4 */
+    width: 500px; /* Equivalent to w-80 */
+    padding: 5px; /* Equivalent to p-4 */
 }
 
 .card-body {
@@ -72,7 +72,7 @@
 }
 
 
-.divider {
+.stack-divider {
     margin-bottom: 4px;
     margin-right: 15%;
     color: #F2FCFC;
@@ -107,7 +107,7 @@
 
 .description {
     color: #42F56C;
-    font-size: large;
+    font-size: 110%;
     font-weight:600;
 }
 
@@ -117,4 +117,3 @@
     gap: 3px;
     margin-right: 20px;
 }
-

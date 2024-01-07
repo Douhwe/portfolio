@@ -19,7 +19,7 @@ const Experiences = () => {
     ]
 
     return (
-        <div>
+        <div id='experience'>
             <div className='sub-header'>
             <h1>
                 Experience
@@ -36,6 +36,7 @@ const Experiences = () => {
                 );
             })}
         </div>
+        <div className='divider'></div>
         </div>
     );  
 };

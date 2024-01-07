@@ -2,3 +2,32 @@
     margin-right: 55%;
 }
 
+.link-label {
+    color: #F2FCFC;
+    font-family: 'Chivo-SemiBold';
+    transition: color 0.3s ease, margin-right 0.3s ease;
+    
+}
+
+.link-label:hover {
+    color: #B399FF; 
+    margin-right: 20px; /* Adjust to control the extent of extension */
+}
+
+@font-face {
+    font-family: 'Chivo-SemiBold';
+    src: url('../assets/fonts/Chivo-SemiBold.ttf') format('truetype');
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: 'Chivo-Regular';
+    src: url('../assets/fonts/Chivo-Regular.ttf') format('truetype');
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: 'Chivo-Light';
+    src: url('../assets/fonts/Chivo-Light.ttf') format('truetype');
+    font-weight: 600; 
+}

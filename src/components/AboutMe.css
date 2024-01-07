@@ -22,3 +22,12 @@
     src: url('../assets/fonts/Chivo-Light.ttf') format('truetype');
     font-weight: 600; 
 }
+
+.divider {
+    margin: 75px 0;
+    opacity: 0.2;
+    margin-bottom: 15%;
+    height: 2px;
+    background-color: #515151;
+    border: none;
+  }

@@ -13,7 +13,7 @@ const Projects = () => {
         description: 'CRUD Application for asking and answering Coding related Questions',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["TypeScript", "React", "MongoDB", "Express", "Nodejs"],
-        thumbnail: "/thumbnails/stockpredict.png"
+        thumbnail: "/thumbnails/fakeso.png?raw=true"
     },
     {
         title: 'Stock Price Predictor',
@@ -21,14 +21,24 @@ const Projects = () => {
         description: 'Web App designed to Predict Stock Prices using LSTM Neural Network',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["SQLite", "Flask", "React", "TensorFlow", "Keras"],
-        thumbnail: "/thumbnails/stockpredict.png"
+        thumbnail: "/thumbnails/stockpredict.png?raw=true"
+    },
+    {
+        title: 'Portfolio',
+        date: 'Fall 2023',
+        description: 'Portfolio Website to show who I am and what I\'ve accomplished!',
+        repo: 'https://github.com/Douhwe/portfolio',
+        stack: ["TypeScript", "React"],
+        thumbnail: "/thumbnails/andydev.png?raw=true"
+
     }
 ] 
 
 
 
     return (
-        <div className="flex-container">
+        <div id='projects'
+            className="flex-container">
             <div className='sub-header'>
             <h1>
                 Projects
@@ -56,7 +66,7 @@ const Projects = () => {
                             <p>{project.description}</p>
                             </div>
                             <div className="tech-stack">
-                                <div className="divider">Tech Stack</div>
+                                <div className="stack-divider">Tech Stack</div>
                                 <div className="stack">
                                     {project.stack.map((iconKey, idx) => {
                                         const IconComponent = ICONS[iconKey];

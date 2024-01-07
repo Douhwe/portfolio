@@ -1,10 +1,12 @@
 import React from "react";
+import "./Misc.css";
 
 const Misc = () => {
 
     const pictures = [
         {
-            thumbnail: "/thumbnails/cats.jpg"
+            thumbnail1: "/thumbnails/cats1.jpg",
+            thumbnail2: "/thumbnails/cats2.jpg"
         }
     ]
 
@@ -14,10 +16,13 @@ const Misc = () => {
     };
 
     return (
-        <div>
+        <div id='misc'>
             {pictures.map((picture, index) => (
                 <figure key={index}>
-                    <img src={picture.thumbnail} style={inlineStyle} alt="Thumbnail" />
+                    <div className="divide-space"></div>
+                    <img src={picture.thumbnail1} style={inlineStyle} alt="Thumbnail" />
+                    <img src={picture.thumbnail2} style={inlineStyle} alt="Thumbnail" />
+
                 </figure>
             ))}
         </div>
