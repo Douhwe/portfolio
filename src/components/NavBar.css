@@ -1,0 +1,57 @@
+.custom-navbar {
+    background-color: var(--navy);
+    color: var(--lightest-slate);
+    font-family: 'NTR', sans-serif;  /* Added a fallback font */
+    font-weight: bold;
+    
+}
+
+.custom-navbar .navbar-nav {
+    display:flex;
+    align-items: center;
+}
+
+
+.custom-navbar .nav-link {
+    text-decoration: none;
+    color: var(--lightest-slate) !important;
+    margin-right: 15px;
+    padding-left: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* Adjusting the left-side nav container */
+.custom-navbar .me-auto {
+    margin-left: 15px; /* Adds space from the left end of the navbar */
+}
+
+.custom-navbar .ms-auto {
+    margin-right: 10%; /* Adds space from the right end of the navbar */
+}
+
+.custom-navbar .navbar-collapse {
+    display: flex;
+    justify-content: space-between; /* Name on left and Links on the right */
+    flex-grow: 1;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--green-bright) !important;
+}
+
+.custom-navbar .icon {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-navbar .navbar-brand {
+        display: none;
+    }
+  
+    .custom-navbar .nav-link {
+        display: none;
+    }
+}

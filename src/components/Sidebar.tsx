@@ -10,7 +10,6 @@ import LinkedinIcon from "../assets/icons/linkedinlogo.png";
 import EmailIcon from "../assets/icons/emaillogo.png";
 
 const Sidebar = () => {
-    type URL = string;
 
     const [activeSection, setActiveSection] = useState('About Me');
 
@@ -22,7 +21,7 @@ const Sidebar = () => {
         return activeSection === sectionName ? "#B399FF" : "#F2FCFC"; // Active color is purple
     };
 
-    const openLink = (link: URL): void => {
+    const openLink = (link: string): void => {
         try {
             const newWindow = window.open(link, '_blank');
             if (newWindow) {
