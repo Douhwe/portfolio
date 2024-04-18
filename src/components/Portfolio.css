@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     color: black;
-    background-color: #222222;
+    background-color: var(--navy);
   
     padding: 0 15%;
   }
@@ -25,28 +25,6 @@
     src: url('../assets/fonts/Chivo-Light.ttf') format('truetype');
     font-weight: 600; 
 }
-  
-
-
-  .text {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header {
-    color: #B399FF;
-    margin-top: 125px;
-  }
-  
-  #intro {
-    font-family: 'Chivo-SemiBold';
-    font-size: 2.5em;
-  }
-  
-  #pitch {
-    font-family: 'Chivo-Light';
-    font-size: 1.35em;
-  }
   
   .built-by {
     font-family: 'Chivo-Light';

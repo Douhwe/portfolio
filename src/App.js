@@ -5,7 +5,6 @@ import  {
     BrowserRouter as Router, 
     Routes,
     Route,
-    Link
 } from "react-router-dom";
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
             <div className="NavBar">
             <NavBar/>
             </div>
-            
+
             <div>
                 <Routes> {/* Renders Component specified by Path */}
                     <Route path="/future-goals" element={<FutureGoals />} /> 
