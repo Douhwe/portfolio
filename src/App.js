@@ -9,7 +9,7 @@ import  {
 
 function App() {
     return (
-        <Router> {/* Keeps URL Link in Sync */}
+        <Router basename="/"> {/* Keeps URL Link in Sync */}
             <div className="NavBar">
             <NavBar/>
             </div>

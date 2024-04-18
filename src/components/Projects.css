@@ -88,18 +88,26 @@
     justify-content: center;
 }
 
-.title-date-icon {
+.title-icon {
+    margin-left: 20%;
     display: flex;
     align-items: center; 
     gap: 8%; 
+    padding: 0 20px;
 }
 
-.card-title, .badge {
+.card-title {
     margin-left: 4%; 
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 28px;
+    white-space: nowrap;
 }
 
 .proj-icon{
     margin-left: 12%;
+    margin-right: 15px;
     background: none;
     border: none;
     cursor: pointer;
@@ -109,6 +117,7 @@
     color: #42F56C;
     font-size: 110%;
     font-weight:600;
+    text-align: center;
 }
 
 .stack {

@@ -1,4 +1,3 @@
-import React from "react";
 import './Experiences.css';
 
 const Experiences = () => {
@@ -6,12 +5,19 @@ const Experiences = () => {
     const experiences = [
         {
             active: 'yes',
+            description: 'Incoming Software Development Engineer Intern @ Amazon'
+        },
+
+        {
+            active: 'yes',
             description: 'Undergraduate Teaching Assistant @ Stony Brook University'
         },
+
         {
             active: 'no',
             description: 'Software Engineering Intern @ AVOLTA Canada'
         },
+
         {
             active: 'no',
             description: 'Information Technology Aide @ NYC Citywide Administrative Services'

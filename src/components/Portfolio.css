@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     color: black;
-    background-color: var(--navy);
+    background-color: var(--light-navy);
   
     padding: 0 15%;
   }

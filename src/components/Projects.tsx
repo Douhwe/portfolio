@@ -8,6 +8,14 @@ const Projects = () => {
 
     const projects = [
     {
+        title: 'Stock Options Visualizer',
+        date: 'Fall 2023',
+        description: 'Live Financial Stock & Options Pricing Modeler',
+        repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
+        stack: ["React", "WebSocket", "Docker", "AWS"],
+        thumbnail: "/thumbnails/fakeso.png"
+    },
+    {
         title: 'Fake Stack Overflow',
         date: 'Fall 2023',
         description: 'CRUD Application for asking and answering Coding related Questions',
@@ -51,13 +59,10 @@ const Projects = () => {
                             <img src={process.env.PUBLIC_URL + project.thumbnail} className="thumbnail" alt="Project Thumbnail" />
                         </figure>
                         <div className="card-body">
-                        <div className="title-date-icon">
+                        <div className="title-icon">
                                 <h2 className="card-title">
-                                    <p>{project.title}</p>
+                                    {project.title}
                                 </h2>
-                                <div className="badge">
-                                    <p>{project.date}</p>
-                                </div>
                                 <a href={project.repo} className="proj-icon">
                                     <img src={GithubIcon} alt="GitHub" width="35"/>
                                 </a>

@@ -20,7 +20,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
       height={height}
     />
   ),
-  docker: <Icon icon="logos:docker-icon" width={width} height={height} />,
+  Docker: <Icon icon="logos:docker-icon" width={width} height={height} />,
   bash: <Icon icon="logos:bash-icon" width={width} height={height} />,
   fastapi: (
     <Icon
@@ -66,6 +66,8 @@ const ICONS: { [key: string]: React.ReactElement } = {
   Express: <Icon icon="skill-icons:expressjs-dark" width={width} height={height} />,
   TensorFlow: <Icon icon="logos:tensorflow" width={width} height={height} />,
   Keras: <Icon icon="devicon:keras" width={width} height={height} />,
+  WebSocket: <Icon icon="logos:websocket" width={width} height={height} />,
+  AWS: <Icon icon="logos:aws" width={width} height={height} />
 };
 
 export default ICONS;
