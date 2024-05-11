@@ -16,7 +16,7 @@ function App() {
 
             <div>
                 <Routes> {/* Renders Component specified by Path */}
-                    <Route path="/future-goals" element={<FutureGoals />} /> 
+                    <Route path="/Interests" element={<Interests/>} /> 
                     <Route path="/" element={<Home/>}/>
                 </Routes>
             </div>
@@ -31,8 +31,8 @@ function Home() {
     </div>
   }
   
-  function FutureGoals() {
-    return <h2>Future Goals</h2>;
+  function Interests() {
+    return <h2>Here are some of my interests</h2>;
   }
 
 

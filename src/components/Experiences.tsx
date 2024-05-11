@@ -5,11 +5,11 @@ const Experiences = () => {
     const experiences = [
         {
             active: 'yes',
-            description: 'Incoming Software Development Engineer Intern @ Amazon'
+            description: 'Software Development Engineer Intern @ Amazon'
         },
 
         {
-            active: 'yes',
+            active: 'no',
             description: 'Undergraduate Teaching Assistant @ Stony Brook University'
         },
 

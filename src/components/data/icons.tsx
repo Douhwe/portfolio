@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 
-const width = 24;
-const height = 24;
+const width = 35;
+const height = 35;
 
 const ICONS: { [key: string]: React.ReactElement } = {
   React: <Icon icon="logos:react" width={width} height={height} />,

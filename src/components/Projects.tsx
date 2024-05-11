@@ -1,4 +1,3 @@
-import React from "react";
 import './Projects.css'
 import GithubIcon from "../assets/icons/githublogo.png";
 import  ICONS  from './data/icons';
@@ -47,7 +46,7 @@ const Projects = () => {
     return (
         <div id='projects'
             className="flex-container">
-            <div className='sub-header'>
+            <div className='sub-header' style={{color: "red"}}> 
             <h1>
                 Projects
             </h1>
