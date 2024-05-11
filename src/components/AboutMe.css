@@ -1,0 +1,33 @@
+.bio-text {
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Chivo-Light';
+    font-weight: 200;
+    color: #00F5A9;
+}
+
+@font-face {
+    font-family: 'Chivo-SemiBold';
+    src: url('../assets/fonts/Chivo-SemiBold.ttf') format('truetype');
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: 'Chivo-Regular';
+    src: url('../assets/fonts/Chivo-Regular.ttf') format('truetype');
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: 'Chivo-Light';
+    src: url('../assets/fonts/Chivo-Light.ttf') format('truetype');
+    font-weight: 600; 
+}
+
+.divider {
+    margin: 75px 0;
+    opacity: 0.2;
+    margin-bottom: 15%;
+    height: 2px;
+    background-color: #515151;
+    border: none;
+  }

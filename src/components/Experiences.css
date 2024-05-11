@@ -1,0 +1,110 @@
+
+.ExpContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Chivo-Regular';
+  }
+  
+  .Item {
+    width: 750px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    display: flex;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .Item {
+      padding-top: 25px;
+      padding-bottom: 40px;
+      display: block;
+      transition: background-color 0.3s ease;
+    }
+  }
+  
+  .Item:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+  
+  .ItemDate {
+    padding-left: 15px;
+    min-width: 150px;
+    margin-right: 10px;
+    color: #6378a0;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ItemDate {
+      padding-left: 0px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  .ItemPosition {
+    color: #b9c2dc;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  
+  .Item:hover .ItemPosition {
+    color: #72d4d6;
+  }
+  
+  .ItemBody {
+    color: #8d9bb8;
+    padding-right: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ItemBody {
+      padding-right: 300px;
+    }
+  }
+  
+  .TechList {
+    padding-top: 20px;
+    display: flex;
+  }
+  
+  .TechStack {
+    margin-right: 10px;
+    color: #72d4d6;
+    background-color: #193346;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 40px;
+    font-weight: 600;
+  }
+
+.item + .item { /* Separation between positions */
+    margin-top: 10px; 
+    padding-top: 10px; 
+}
+
+
+.activeExperience {
+    --tw-text-opacity: 1; 
+    color: hsl(158, 64%, 52%);
+    padding-left: 10px;
+}
+
+.inactiveExperience {
+    --tw-text-opacity: 1;
+    color: hsl(220, 13%, 69%);  
+    padding-left: 10px;
+}
+
+.sub-header {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 25%;
+    margin-top: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F2FCFC;
+}
