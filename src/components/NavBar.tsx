@@ -13,14 +13,14 @@ const NavBar = () => {
 
     const handleNavigation = (section: any) => {
         // If already on the home page, just scroll to the section
-        if (location.pathname === '/') {
+        if (location.pathname === '/portfolio') {
           const sectionElement = document.querySelector(section);
           if (sectionElement) {
             sectionElement.scrollIntoView({ behavior: 'smooth' });
           }
         } else {
           // Navigate to the home page and then scroll to the section
-          navigate('/');
+          navigate('/portfolio');
     
           setTimeout(() => {
             const sectionElement = document.querySelector(section);
@@ -37,12 +37,12 @@ return (
         <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="me-auto">
-                <Link to="/" className="nav-link">Andy Chen</Link>
+                <Link to="/portfolio" className="nav-link">Andy Chen</Link>
                 <div onClick={() => handleNavigation('#about')} className="nav-link">About</div>
                 <div onClick={() => handleNavigation('#experience')} className="nav-link">Experience</div>
                 <div onClick={() => handleNavigation('#projects')} className="nav-link">Projects</div>
                 <div onClick={() => handleNavigation('#misc')} className="nav-link">Misc</div>
-                <Link to="/future-goals" className="nav-link">Future Goals</Link>
+                <Link to="/interests" className="nav-link">Interests</Link>
             </Nav>
 
             <Nav className="ms-auto">

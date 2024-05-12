@@ -1,4 +1,3 @@
-import React from "react";
 import "./Misc.css";
 
 const Misc = () => {

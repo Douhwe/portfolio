@@ -1,4 +1,5 @@
-import { Portfolio } from './components/Portfolio';
+import Portfolio from './components/Portfolio';
+import Interests from './components/Interests';
 import NavBar from './components/NavBar';
 import './components/Global.css';
 import  {
@@ -16,24 +17,26 @@ function App() {
 
             <div>
                 <Routes> {/* Renders Component specified by Path */}
-                    <Route path="/Interests" element={<Interests/>} /> 
-                    <Route path="/" element={<Home/>}/>
+                    <Route path="/portfolio" element={<Home/>}/>
+                    <Route path="/interests" element={<InterestsPage/>} /> 
                 </Routes>
             </div>
         </Router>
     );
 }
 
-
-function Home() {
+// Functional Component that Encapsulates another Component
+function Home() { 
     return <div className="App">
-    <Portfolio />
+        <Portfolio />
     </div>
   }
   
-  function Interests() {
-    return <h2>Here are some of my interests</h2>;
-  }
+function InterestsPage() {
+    return <div className="Interests">
+        <Interests/>
+    </div>
+}
 
 
 export default App;

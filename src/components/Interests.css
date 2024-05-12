@@ -1,0 +1,17 @@
+.interests-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    background-color: var(--light-navy);
+    padding: 0 15%;
+}
+
+
+.checklist-container {
+    background-color: var(--green-bright);
+    text-align: center;
+    --tw-text-opacity: 1; 
+    color: var(--green-bright);
+}
+
