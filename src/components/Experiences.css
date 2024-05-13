@@ -98,13 +98,3 @@
     color: hsl(220, 13%, 69%);  
     padding-left: 10px;
 }
-
-.sub-header {
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    margin-right: 25%;
-    margin-top: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #F2FCFC;
-}

@@ -4,13 +4,35 @@
     --light-navy: #112240;
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);
+    --dark-slate: #7f869b;
     --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
     --teal: #45A0A6;
+
+    --coral-pink: #FF6B6B;
+    --light-coral: #FF9F9F;
+    --sunny-yellow: #FFD93D;
+    --light-gray-blue: #c0cad0;
+    --card-background: rgba(17, 34, 64, 0.1);
+
     --green-bright: #64ffda;
     --neon-green: #00F5A9;
     --electric-green: rgb(34 197 94);
     --green-tint: rgba(100, 255, 218, 0.1);
   }
+
+.sub-header { 
+    /* For Titles of each Section */
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 20%;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: var(--light-coral);
+    /* color: #F2FCFC; */
+}

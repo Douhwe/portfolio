@@ -6,7 +6,7 @@ const Interests = () => {
 
     return (
         <>
-        <div className="text-green-500">
+        <div className="interests-home">
             tester
         {/* <div className="form-check">
             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>

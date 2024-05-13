@@ -1,6 +1,7 @@
 import './Projects.css'
 import GithubIcon from "../assets/icons/githublogo.png";
 import  ICONS  from './data/icons';
+import { useState } from "react";
 
 const Projects = () => {
 
@@ -41,18 +42,45 @@ const Projects = () => {
     }
 ] 
 
+const [currentProjectIndex, setCurrentProjectIndex] = useState(0) //Start with First Index/Project
+let totalProjects = projects.length; //Max number of Projects to navigate
+
+const navigatePrevious = () => {
+    if (currentProjectIndex - 1 < 0) {
+        setCurrentProjectIndex(currentProjectIndex => totalProjects - 1) //Underflow to last project
+    }
+    else {
+        setCurrentProjectIndex(currentProjectIndex => currentProjectIndex - 1)
+    }
+    console.log("previous was pressed" + currentProjectIndex)
+};
+
+const navigateNext = () => {
+    setCurrentProjectIndex(((currentProjectIndex + 1) % totalProjects));
+    console.log("next was pressed" + currentProjectIndex)
+    console.log(projects)
+    };
 
 
     return (
         <div id='projects'
             className="flex-container">
-            <div className='sub-header' style={{color: "red"}}> 
+            <div className='sub-header' style={{
+                color: "var(--light-coral)"
+                }}> 
             <h1>
-                Projects
+                Pet Projects
             </h1>
             </div>
+            <div className='project-counter'>Project {currentProjectIndex + 1}</div>
+            <div className='pagination-buttons'>
+                <button className="prevButton" onClick={navigatePrevious}>Previous</button>
+                <button className="nextButton" onClick={navigateNext}>Next</button>
+            </div>
             {projects.map((project, index) => (
-                <div key={index} className="project-card">
+                <div key={index}>
+                    {currentProjectIndex === index && ( //Only Display the Currently Selected Project
+                    <div className="project-card">
                     <div className="card">
                         <figure>
                             <img src={process.env.PUBLIC_URL + project.thumbnail} className="thumbnail" alt="Project Thumbnail" />
@@ -75,10 +103,13 @@ const Projects = () => {
                                     {project.stack.map((iconKey, idx) => {
                                         const IconComponent = ICONS[iconKey];
                                         return IconComponent ? <div key={idx} title={iconKey}> {IconComponent}</div> : null;
-                                })}</div>
+                                })}
+                                </div>
                             </div>
                         </div>
                     </div>
+                    </div>
+                    )}
                 </div>
             ))}
         </div>
