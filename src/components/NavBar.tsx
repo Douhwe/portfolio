@@ -33,7 +33,7 @@ const NavBar = () => {
 
 return (
     <Navbar fixed="top" className="custom-navbar" variant="dark">
-      <Container>
+      <Container style={{paddingTop: "10px", borderRadius: "25px"}}>
         <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="me-auto">
@@ -47,13 +47,13 @@ return (
 
             <Nav className="ms-auto">
                 <Nav.Link>
-                    <img className='icon' onClick={() => openLink('https://drive.google.com/file/d/1sh2EyVdrzNhEMcs2ciFTsMuFd0rMoTWq/view?usp=sharing')} src={EmailIcon} alt='resume' width={40}/>
+                    <img className='icon' onClick={() => openLink('https://github.com/douhwe')} src={GithubIcon} alt='github' width={40}/>
                 </Nav.Link>
             <Nav.Link>
-                <img className='icon' onClick={() => openLink('https://github.com/douhwe')} src={GithubIcon} alt='github' width={40}/>
+                <img className='icon' onClick={() => openLink('https://www.linkedin.com/in/andychen1024/')} src={LinkedinIcon} alt='linked-in' width={40} />
             </Nav.Link>
             <Nav.Link>
-                <img className='icon' onClick={() => openLink('https://www.linkedin.com/in/andychen1024/')} src={LinkedinIcon} alt='linked-in' width={40} />
+            <img className='icon' onClick={() => openLink('https://drive.google.com/file/d/1sh2EyVdrzNhEMcs2ciFTsMuFd0rMoTWq/view?usp=sharing')} src={EmailIcon} alt='resume' width={40}/>
             </Nav.Link>
             </Nav>
 

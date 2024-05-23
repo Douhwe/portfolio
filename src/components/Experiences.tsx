@@ -13,10 +13,10 @@ const Experiences = () => {
             description: 'Undergraduate Teaching Assistant @ Stony Brook University'
         },
 
-        {
-            active: 'no',
-            description: 'Software Engineering Intern @ AVOLTA Canada'
-        },
+        // {
+        //     active: 'no',
+        //     description: 'Software Engineering Intern @ AVOLTA Canada'
+        // },
 
         {
             active: 'no',

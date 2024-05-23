@@ -38,9 +38,15 @@ const Sidebar = () => {
     <div className='nav'>
     <div className='sub-nav'>
         <div className='header'>
-            <h2 id='intro' className='text'>Hello, I'm <br/> 
-            <div className='name'> Andy</div></h2>
-            <p id='pitch' className='text'>Programmer, Student, <br/> Cat Enthusiast</p>
+            <h2 id='intro' className='text'>hi, i'm andy </h2> 
+            {/* <div className='name'> Andy</div></h2> */}
+            
+            <figure>
+                <img src={process.env.PUBLIC_URL + "/thumbnails/flyingpikachu.png"} className="thumbnail" alt="flying pikachu!" 
+                style={{width: "150px", height: "100px"}}/>
+            </figure>
+
+            <p id='pitch' className='text' style={{marginTop: "10%", marginBottom: "15%"}}>I like creating things</p>
             <br/>
             <nav className='menu'>
                 <Link

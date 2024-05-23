@@ -15,7 +15,7 @@
 .custom-navbar .nav-link {
     text-decoration: none;
     color: var(--lightest-slate) !important;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     padding-left: 35px;
     align-items: center;
     justify-content: center;

@@ -1,7 +1,10 @@
 import Portfolio from './components/Portfolio';
 import Interests from './components/Interests';
 import NavBar from './components/NavBar';
+// import './output.css'
 import './components/Global.css';
+
+
 import  {
     BrowserRouter as Router, 
     Routes,

@@ -5,12 +5,18 @@ const AboutMe = () => {
         <div id='about' className='about-me'>
             <div className='divide-space'/>
             <p className='bio-text'>
-                Hey there! I'm a student studying Computer Science at Stony Brook University. <br/> 
-                I enjoy programming, solving problems, and learning about new ideas. <br/>
-                Specifically, I'm interested in learning more about Machine Learning, Data Science, and Full-Stack Development, hoping to make a mark in the world of technology.
+                I'm an aspiring Software Engineer with a passion for large-scale, high-impact Services.<br/> 
+                Currently, I am pursuing my Undergraduate Degree in Computer Science at Stony Brook University. <br/>
+                <br/>
+                Some of my recent interests include Cloud Computing, Computer Vision, and Computer Graphics.<br/>
+                <br/>
+                Additionally, I am eager to explore new opportunities in Machine Learning and Full-Stack <br/>
+                Development, as 
+                one of my main goals to make a significant mark on the world of technology
                 <br/>
                 <br/>
-                Outside my student life, I enjoy Gaming, Swimming, and taking Pictures of Cats
+                Outside of Work and Academics, I'm interested in learning random Trivia. <br/>
+                I also play a lot of video games. Maybe too much. 😂
             </p>
         <div className='divider'></div>
         </div>

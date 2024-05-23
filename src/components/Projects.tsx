@@ -13,7 +13,7 @@ const Projects = () => {
         description: 'Live Financial Stock & Options Pricing Modeler',
         repo: 'https://github.com/Douhwe/AI-Stock-Prediction-Bot',
         stack: ["React", "WebSocket", "Docker", "AWS"],
-        thumbnail: "/thumbnails/fakeso.png"
+        thumbnail: "/thumbnails/optionsmodel.png"
     },
     {
         title: 'Fake Stack Overflow',
@@ -52,13 +52,10 @@ const navigatePrevious = () => {
     else {
         setCurrentProjectIndex(currentProjectIndex => currentProjectIndex - 1)
     }
-    console.log("previous was pressed" + currentProjectIndex)
 };
 
 const navigateNext = () => {
     setCurrentProjectIndex(((currentProjectIndex + 1) % totalProjects));
-    console.log("next was pressed" + currentProjectIndex)
-    console.log(projects)
     };
 
 
