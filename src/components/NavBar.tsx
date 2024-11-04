@@ -53,7 +53,7 @@ return (
                 <img className='icon' onClick={() => openLink('https://www.linkedin.com/in/andychen1024/')} src={LinkedinIcon} alt='linked-in' width={40} />
             </Nav.Link>
             <Nav.Link>
-            <img className='icon' onClick={() => openLink('https://drive.google.com/file/d/1sh2EyVdrzNhEMcs2ciFTsMuFd0rMoTWq/view?usp=sharing')} src={EmailIcon} alt='resume' width={40}/>
+            <img className='icon' onClick={() => openLink('https://drive.google.com/file/d/1ggHcq3_zSqDbBbYK9Fc5xBM04ZaHfYhB/view?usp=sharing')} src={EmailIcon} alt='resume' width={40}/>
             </Nav.Link>
             </Nav>
 

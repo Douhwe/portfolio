@@ -5,11 +5,11 @@ const AboutMe = () => {
         <div id='about' className='about-me'>
             <div className='divide-space'/>
             <p className='bio-text'>
-                I'm an aspiring Software Engineer with a passion for large-scale, high-impact Services.<br/> 
+                I'm an developer based in New York with a passion for large-scale, high-impact Services.<br/> 
                 I'm currently pursuing my Undergraduate Degree in Computer Science at Stony Brook University. <br/>
                 <br/>
-                I'm also a Software Development Engineer Intern at Amazon, working with <br/>
-                a team on the Amazon Connect service within AWS
+                I was previously was a SDE Intern at Amazon, working with the<br/>
+                Amazon Connect Scheduling team within AWS
                 <br/>
                 <br/>  
                 Some of my recent interests include Cloud Computing, Computer Vision, and Computer Graphics.<br/>
